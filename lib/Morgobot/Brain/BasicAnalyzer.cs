@@ -80,6 +80,11 @@ namespace Morgobot.Brain
                 return "Пидора ответ!";
             }
 
+            if (phrase.HasWord("где"))
+            {
+                return "В пизде!";
+            }
+
             return null;
         }
     }
